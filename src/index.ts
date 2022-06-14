@@ -1,6 +1,9 @@
-export const sum = (a: number, b: number) => {
-  if ('development' === process.env.NODE_ENV) {
-    console.log('boop');
+export const objectKeys = <TObject extends object>(object: TObject) => {
+  if (object === null || typeof object !== 'object') {
+    return [];
   }
-  return a + b;
+
+  return Object.keys(object) as Array<keyof TObject>;
 };
+
+export default objectKeys;

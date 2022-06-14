@@ -3,7 +3,7 @@
 ## _Fix for Object.keys, which normally just returns an array of strings, which is not good when you care about strong typing._
 
 [![alt Version](https://img.shields.io/npm/v/ts-object-keys?color=blue)](https://www.npmjs.com/package/object-keys) [![alt License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
-[![alt Twitter: twitter.com/JankiewiczMi/](https://img.shields.io/twitter/follow/WojtasinskiPawe.svg?style=social)](https://twitter.com/twitter.com/WojtasinskiPawe)
+[![alt Twitter: twitter.com/JankiewiczMi/](https://img.shields.io/twitter/follow/WojtasinskiPawe.svg?style=social)](https://twitter.com/WojtasinskiPawe)
 
 ![usage-example-1](https://i.imgur.com/wjqE9QC.png)
 

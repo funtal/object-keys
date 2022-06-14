@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,13 +17,7 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why",
-    "gcb": "bash ./scripts/git-create-branch.sh",
-    "gcdwp": "bash ./scripts/git-checkout-develop-with-pull.sh",
-    "gpc": "bash ./scripts/git-push-changes.sh",
-    "grlc": "bash ./scripts/git-reset-local-changes.sh",
-    "rlb": "bash ./scripts/remove-local-branches.sh",
-    "reinstall-node-modules": "bash ./scripts/reinstall-node-modules.sh"
+    "analyze": "size-limit --why"
   },
   "peerDependencies": {},
   "husky": {

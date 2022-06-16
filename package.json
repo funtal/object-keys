@@ -3,6 +3,15 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "homepage": "https://github.com/funtal/object-keys#readme",
+  "description": "Fix for Object.keys, which normally just returns an array of strings, which is not good when you care about strong typing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funtal/object-keys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/funtal/object-keys/issues"
+  },
   "files": [
     "dist",
     "src"
